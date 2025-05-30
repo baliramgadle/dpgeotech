@@ -3,6 +3,11 @@
     background: url("../images/hero2.jpeg") center / cover no-repeat;
     height: 200px;
   }
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+}
   
   
   .contact-form {
