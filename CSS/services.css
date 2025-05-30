@@ -1,0 +1,68 @@
+@import url("styles.css");
+
+.services-container {
+    padding: 50px 20px;
+    margin: auto;
+  }
+
+  .hero {
+    background: url("../images/service.jpeg") center / cover no-repeat;
+    height: 200px;
+  }
+
+  .services-container h1 {
+    margin: 20px;
+    font-size: 2rem;
+    color: var(--primary-color);
+  }
+
+  .service-box {
+    margin-bottom: 30px;
+    box-shadow:  0 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .service-box:hover .service-content {
+    transform: scale(1.1);
+  }
+
+  .service-box img {
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .service-content {
+    padding: 25px 30px;
+  }
+
+  .service-content h2 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+  }
+
+  .service-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-color);
+  }
+
+  @media (min-width: 768px) {
+    .service-box {
+      flex-direction: row;
+      align-items: center;
+    }
+    .service-box img {
+      width: 40%;
+      height: 300px;
+    }
+    .service-content {
+      width: 60%;
+      padding: 25px 60px;
+    }
+  }
