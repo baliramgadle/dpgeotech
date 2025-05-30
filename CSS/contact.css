@@ -28,7 +28,7 @@
     text-align: center;
   }
   
-  .contact-section p {
+  .contact-section > p {
     font-size: 1.1rem;
     margin-bottom: 30px;
     color: var(--text-color);
