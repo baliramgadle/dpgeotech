@@ -227,6 +227,28 @@ body {
   }
 }
 
+@keyframes drop-down {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes drop-up {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 @media (max-width: 768px) {
   .top-bar {
     font-size: 0.8rem;
